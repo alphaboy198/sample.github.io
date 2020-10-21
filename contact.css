@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    /* margin-top: 3px; */
+    position: sticky;
+
+}
+
+
+
+ul{
+    overflow: auto;
+}
+
+li{
+    float: left;
+    margin: 34px;
+    list-style: none;
+    
+}
+
+.Contact{
+    float: right;
+    margin-left: 23px;
+    margin-top: 29px;
+}
+
+.container{
+    height: 520px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 23px auto;
+    
+}
+.container h1{
+    text-align: center;
+}
+
+form{
+    display: block;
+}
+
+
+
+form input{
+    display: block;
+    margin: 20px auto;
+    width: 366px;
+    padding: 13px;
+    border-radius: 12px;
+}
+

@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    /* margin-top: 3px; */
+    position: sticky;
+
+}
+
+ul{
+    overflow: auto;
+}
+
+li{
+    float: left;
+    margin: 34px;
+    list-style: none;
+    
+}
+
+.Contact{
+    float: right;
+    margin-left: 23px;
+    margin-top: 29px;
+}
+
+.container{
+    content: "";
+    background-image: url("dome.jpg");
+    opacity: 0.8;
+    height: 450px;
+    width: 100%;
+    /* float: left; */
+    margin: 0px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    
+    /* text-align: center; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: #fff;
+    /* display: flex; */
+    position: absolute;
+    z-index: -1;
+}
+
+.item h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* color: rgb(7, 5, 5); */
+    font-size: 2.8rem;
+    margin-top: 100px;
+}
+
+.item h1:hover{
+    color: rosybrown;
+}
+.item p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* color: rgb(7, 5, 5); */
+    /* font-size: 2.8rem; */
+    /* margin-top: 40px; */
+    overflow: auto;
+    /* margin:  10px 10px; */
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1.375rem 2.125rem 1.375rem 2.125rem;
+    border: 0.125rem solid #14bf98;
+    border-radius: 0.25rem;
+    background-color: #14bf98;
+    color: #fff;
+    font: 700 0.75rem/0 "Montserrat",sans-serif;
+    text-decoration: none;
+    transition: all 0.2s;
+    margin: auto;
+    display: flex;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color:#14bf98;
+}
+
+.another-container{
+    /* position: relative; */
+    margin-top: 50px;
+}
+
+.another-container h4,h2,p{
+    text-align: center;
+    margin: 1px 13px;
+    padding: 5px 79px;
+
+}
+
+.another-container img{
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 455px;
+    margin: auto;
+    display: block;
+    /* background: transparent; */
+    border: 2px solid tomato;
+    
+}
+.another-container img:hover{
+    transform: scale(1.1);
+    /* transform: rotate(360deg); */
+    /* transform: skew(34deg, 89deg); */
+    /* transition-delay: 2sec; */
+}
+
+.foot{
+    height: 400px;
+    background-color: black;
+    /* width: 500px; */
+    /* display: flex; */
+    
+    flex-direction: column;
+    /* display: inline; */
+    color: white;
+}
+.foot h1{
+    text-align: center;
+}
+.foot a{
+    text-decoration: none;
+    margin: 2px 4px;
+    padding: 10px 5px;
+    border: 0.125rem solid #348371;
+    display: inline-block;
+    display: flex;
+    margin: auto;
+    width: 100px;
+    text-align: center;
+    background-color: cornsilk;
+    
+}
+
+footer h4{
+    text-align: center;
+    font-size: 30px;
+}
